@@ -1,0 +1,94 @@
+2021-12-10 13:22:31,131 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\Projet_Libreplan_Logicaldoc\libreplan\ext] for external libraries
+2021-12-10 13:22:31,294 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
+2021-12-10 13:22:32,494 INFO  [PluginManager] 0 plugins loaded in 1 ms
+2021-12-10 13:22:32,494 INFO  [DefaultSoapUICore] All plugins loaded
+2021-12-10 13:22:33,336 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/Projet_Libreplan_Logicaldoc/libreplan/src/test/resources/UPDATED_LIBREPLAN-RESOURCES-TEST-soapui-project.xml]
+2021-12-10 13:22:33,339 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [LIBREPLAN_RESOURCES_TEST]
+2021-12-10 13:22:33,340 INFO  [SoapUITestCaseRunner] Running Project [LIBREPLAN_RESOURCES_TEST], runType = SEQUENTIAL
+2021-12-10 13:22:33,351 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [POST Worker]
+2021-12-10 13:22:33,355 INFO  [SoapUITestCaseRunner] running step [POST WORKER]
+2021-12-10 13:22:33,532 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-12-10 13:22:33,532 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+2021-12-10 13:22:33,532 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-10 13:22:33,533 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [POST Worker], time taken: 111ms, status: FINISHED
+2021-12-10 13:22:33,534 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [POST Machine]
+2021-12-10 13:22:33,534 INFO  [SoapUITestCaseRunner] running step [POST MACHINE]
+2021-12-10 13:22:33,571 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-12-10 13:22:33,571 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-10 13:22:33,571 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+2021-12-10 13:22:33,571 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [POST Machine], time taken: 34ms, status: FINISHED
+2021-12-10 13:22:33,572 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [POST Worker (Update)]
+2021-12-10 13:22:33,572 INFO  [SoapUITestCaseRunner] running step [POST EXISTING WORKER (UPDATE)]
+2021-12-10 13:22:33,624 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-12-10 13:22:33,624 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+2021-12-10 13:22:33,624 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-10 13:22:33,624 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [POST Worker (Update)], time taken: 49ms, status: FINISHED
+2021-12-10 13:22:33,625 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GET All Resources]
+2021-12-10 13:22:33,625 INFO  [SoapUITestCaseRunner] running step [GET ALL RESOURCES]
+2021-12-10 13:22:33,658 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-12-10 13:22:33,658 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-10 13:22:33,658 INFO  [SoapUITestCaseRunner] Assertion [Contains Machine] has status VALID
+2021-12-10 13:22:33,658 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GET All Resources], time taken: 24ms, status: FINISHED
+2021-12-10 13:22:33,659 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GET Worker]
+2021-12-10 13:22:33,659 INFO  [SoapUITestCaseRunner] running step [GET A WORKER]
+2021-12-10 13:22:33,684 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-12-10 13:22:33,684 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-10 13:22:33,684 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GET Worker], time taken: 21ms, status: FINISHED
+2021-12-10 13:22:33,685 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GET Non-Existing Machine (NP)]
+2021-12-10 13:22:33,685 INFO  [SoapUITestCaseRunner] running step [GET A NON-EXISTING MACHINE (NP)]
+2021-12-10 13:22:33,709 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-12-10 13:22:33,709 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GET Non-Existing Machine (NP)], time taken: 22ms, status: FINISHED
+2021-12-10 13:22:33,710 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [DELETE Worker (NP)]
+2021-12-10 13:22:33,710 INFO  [SoapUITestCaseRunner] running step [DELETE A WORKER (NP)]
+2021-12-10 13:22:33,729 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-12-10 13:22:33,729 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-10 13:22:33,729 INFO  [SoapUITestCaseRunner] Assertion [Contains - Error Tag] has status VALID
+2021-12-10 13:22:33,729 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [DELETE Worker (NP)], time taken: 13ms, status: FINISHED
+2021-12-10 13:22:33,730 INFO  [SoapUITestCaseRunner] Project [LIBREPLAN_RESOURCES_TEST] finished with status [FINISHED] in 387ms
+2021-12-10 13:22:33,747 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/Projet_Libreplan_Logicaldoc/libreplan/src/test/resources/UPDATED_Libreplan-Projet-soapui-project.xml]
+2021-12-10 13:22:33,748 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Libreplan Global]
+2021-12-10 13:22:33,748 INFO  [SoapUITestCaseRunner] Running Project [Libreplan Global], runType = SEQUENTIAL
+2021-12-10 13:22:33,749 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase Project]
+2021-12-10 13:22:33,749 INFO  [SoapUITestCaseRunner] running step [PostProject - Request 1]
+2021-12-10 13:22:33,797 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-10 13:22:33,797 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status UNKNOWN
+2021-12-10 13:22:33,798 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-12-10 13:22:33,798 INFO  [SoapUITestCaseRunner] running step [PostProject NP - Request 1]
+2021-12-10 13:22:33,856 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status UNKNOWN
+2021-12-10 13:22:33,856 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-12-10 13:22:33,856 INFO  [SoapUITestCaseRunner] Assertion [Contains 1] has status VALID
+2021-12-10 13:22:33,856 INFO  [SoapUITestCaseRunner] running step [GetAllProject - Request 1]
+2021-12-10 13:22:33,894 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-10 13:22:33,894 INFO  [SoapUITestCaseRunner] running step [GetAProject - Request 1]
+2021-12-10 13:22:33,927 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-10 13:22:33,927 INFO  [SoapUITestCaseRunner] running step [DeleteProject - Request 1]
+2021-12-10 13:22:33,968 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-12-10 13:22:33,968 INFO  [SoapUITestCaseRunner] running step [Copy of GetAllProject - Request 1]
+2021-12-10 13:22:33,989 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
+2021-12-10 13:22:33,989 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [<order calendar-name="Default" dependencies-constraints-have-priority="false" init-date="2021-12-08" name="Mon gros projet" code="ORDER0009">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+] in Response
+2021-12-10 13:22:33,989 ERROR [SoapUITestCaseRunner] Copy of GetAllProject - Request 1 failed, exporting to [C:\Users\formation\Documents\Projet_Libreplan_Logicaldoc\libreplan\TestSuite_1-TestCase_Project-Copy_of_GetAllProject__Request_1-0-FAILED.txt]
+2021-12-10 13:22:33,992 INFO  [SoapUITestCaseRunner] running step [GetAProject NP - Request 1]
+2021-12-10 13:22:34,004 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status UNKNOWN
+2021-12-10 13:22:34,004 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
+2021-12-10 13:22:34,004 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> null/empty response
+2021-12-10 13:22:34,004 ERROR [SoapUITestCaseRunner] GetAProject NP - Request 1 failed, exporting to [C:\Users\formation\Documents\Projet_Libreplan_Logicaldoc\libreplan\TestSuite_1-TestCase_Project-GetAProject_NP__Request_1-0-FAILED.txt]
+2021-12-10 13:22:34,005 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase Project], time taken: 233ms, status: FAILED
+2021-12-10 13:22:34,006 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase Calendar]
+2021-12-10 13:22:34,006 INFO  [SoapUITestCaseRunner] running step [Get all calendars (2)]
+2021-12-10 13:22:34,030 INFO  [SoapUITestCaseRunner] Assertion [Contains calendrier 2] has status VALID
+2021-12-10 13:22:34,030 INFO  [SoapUITestCaseRunner] Assertion [Contains calendrier 1] has status VALID
+2021-12-10 13:22:34,030 INFO  [SoapUITestCaseRunner] running step [Calendar non passant]
+2021-12-10 13:22:34,054 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
+2021-12-10 13:22:34,054 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> null/empty response
+2021-12-10 13:22:34,054 ERROR [SoapUITestCaseRunner] Calendar non passant failed, exporting to [C:\Users\formation\Documents\Projet_Libreplan_Logicaldoc\libreplan\TestSuite_2-TestCase_Calendar-Calendar_non_passant-0-FAILED.txt]
+2021-12-10 13:22:34,055 INFO  [SoapUITestCaseRunner] running step [Get 1 Calendars]
+2021-12-10 13:22:34,088 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-12-10 13:22:34,088 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase Calendar], time taken: 72ms, status: FAILED
+2021-12-10 13:22:34,088 INFO  [SoapUITestCaseRunner] Project [Libreplan Global] finished with status [FAILED] in 340ms
